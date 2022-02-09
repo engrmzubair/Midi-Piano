@@ -1,0 +1,54 @@
+body {
+  background-color: #1d6e6b;
+}
+.row {
+  height: 100vh;
+}
+.v-align {
+  height: 100%;
+}
+
+.piano {
+  position: relative;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.white {
+  background-color: white;
+  height: 260px;
+  width: 56px;
+  margin-right: 1px !important;
+  z-index: 1;
+
+}
+
+.black {
+  background-color: black;
+  position: absolute;
+  height: 130px;
+  width: 40px;
+  z-index: 2;
+}
+
+.two {
+  left: 36.5px;
+}
+
+.four {
+  left: 93.5px;
+}
+
+.seven {
+  left: 207.5px;
+}
+
+.nine {
+  left: 264.5px;
+}
+
+.eleven {
+  left: 321.5px;
+}
