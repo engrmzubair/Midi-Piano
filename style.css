@@ -1,3 +1,4 @@
+
 body {
   background-color: #1d6e6b;
 }
@@ -15,9 +16,14 @@ body {
 .btn {
   border-radius: 0px;
 }
+.active {
+  opacity: 0.6;
+  
+}
 
 .white {
   background-color: white;
+  color: black;
   height: 260px;
   width: 56px;
   margin-right: 1px !important;
@@ -27,8 +33,9 @@ body {
 
 .black {
   background-color: black;
+  color: white;
   position: absolute;
-  height: 130px;
+  height: 150px;
   width: 40px;
   z-index: 2;
 }
